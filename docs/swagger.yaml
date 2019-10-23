@@ -1,0 +1,33 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "node-rest-api-boilerplate"
+  description: "API REST created with Node.js and Express."
+host: localhost
+basePath: "/api"
+schemes:
+  - https
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /hello-world:
+    get:
+      tags:
+        - Example
+      summary: "Endpoint used how to example"
+      description: Update this spec with the correct information required.
+      responses:
+        200:
+          $ref: "#/responses/success"
+responses:
+  success:
+    description: OK
+    schema:
+      $ref: '#/definitions/Greeting'
+definitions:
+  Greeting:
+    type: string
+    example: "Hello World"
