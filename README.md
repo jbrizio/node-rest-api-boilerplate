@@ -26,7 +26,7 @@ Services to consume
 - API Endpoint - https://2eja2nqth0.execute-api.us-east-1.amazonaws.com/api/users
 - Swagger - https://app.swaggerhub.com/apis/jbrizio/ms-users-api/1.0.0
 
-# Deliverables
+## Deliverables
 - Repository on Github
 - Swagger
 - Test cases
